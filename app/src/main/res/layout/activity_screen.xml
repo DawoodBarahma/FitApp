@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".Screen">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+
+        android:layout_marginTop="220dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="80dp"
+        android:textSize="20dp"
+
+
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:id="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="80dp"
+        android:textSize="20dp"
+
+
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gender"
+        android:layout_marginTop="330dp"
+
+        />
+    <CheckBox
+
+        android:id="@+id/remember"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:text="Remember me"
+        android:layout_marginTop="385dp"
+        android:background="@color/white"
+        android:layout_marginLeft="80dp"
+
+        />
+
+    <Button
+        android:onClick="btlog"
+        android:id="@+id/loginbt"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="80dp"
+        android:text="LogIn"
+        android:background="@color/black"
+        />
+
+
+</RelativeLayout>
